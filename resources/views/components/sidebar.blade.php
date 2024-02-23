@@ -14,10 +14,25 @@
                         <a class="nav-link" href="{{ url('dashboard-general-dashboard') }}">General Dashboard</a>
                     </li>
                 </ul>
+
                 <ul class="dropdown-menu">
-                    <a class="nav-link" href="{{ route('users.index') }}">Users</a>
+                    <li class="">
+                        <a class="nav-link" href="{{ route('users.index') }}">Users</a>
+                    </li>
+                </ul>
+
+                <ul class="dropdown-menu">
+                    <li class="">
+                        <a class="nav-link" href="{{ route('products.index') }}">Products</a>
+                    </li>
+                </ul>
+
+                <ul class="dropdown-menu">
+                    <li class="">
+                        <a class="nav-link" href="{{ route('categories.index') }}">Categories</a>
+                    </li>
+                </ul>
+
             </li>
-        </ul>
-        </li>
     </aside>
 </div>
